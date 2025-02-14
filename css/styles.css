@@ -1,0 +1,230 @@
+
+.infobtn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    border: 1px solid black;
+    transition: background-color 0.2s ease;
+    min-width: 150px;
+    margin-left: 5px; margin-right: 5px;
+    cursor: default;
+}
+.display-2{
+    user-select: none;
+}
+.pics{
+    align-items: auto;
+}
+.infobtn i{
+    fill: #eaa6a6;
+    margin-right: 8px;
+}
+.infobtn:hover{
+    border: 1px solid white;
+    fill: #eaa6a6;
+    background-color: #eaa6a6;
+    color: white;
+    }
+.infobtn2{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    border: 1px solid #eaa6a6;
+    margin-left: 5px; margin-right: 5px;
+    vertical-align: middle;
+    text-align: center;
+}
+.infobtn2:hover{
+    border: 1px solid white;
+    fill: #eaa6a6;
+    background-color: #eaa6a6;
+    color: white;
+}
+.infobtn2 i{
+    fill: #eaa6a6;
+    margin-right: 8px;
+}
+.scrolls{
+    display: flex;
+    font-family: "Roboto", sans-serif;
+
+}
+.scrolls svg{
+    width: 48px;
+    height: 48px;
+    padding: 8px;
+    cursor: pointer;
+}
+.buttons{
+    max-width: 800px;
+    display: flex;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+.buttons::-webkit-scrollbar{
+    display: none;
+}
+.carousel-inner{
+    border-radius: 12px;
+}
+.scrolls .right-arrow .disabled:hover,
+.scrolls .left-arrow .disabled:hover{
+    background: #575656 !important;
+    border-radius: 50%;
+    fill: white;
+    
+}
+.scrolls svg:hover{
+    background: #eaa6a6;
+    border-radius: 50%;
+    fill: white;
+}
+.scrolls .right-arrow.disabled,
+.scrolls .left-arrow.disabled{
+    fill: #575656;
+    
+}
+.rows{
+    width: 100%;
+    border: 1px solid #eaa6a6;
+    border-radius: 5px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 5px; margin-right: 5px; margin-bottom: 5px;
+    vertical-align: middle;
+    text-align: center;
+    display: flex;
+    user-select: none;
+}
+.rows i{
+    justify-content: center;
+    fill: #eaa6a6;
+    margin-right: 10px;
+}
+.rows:hover{
+    background-color: #f2e1e1;
+}
+.info ul{
+    margin-top: 20px;
+    justify-content: left;
+    margin-left: 5px; margin-right: 5px;
+    /* vertical-align: middle; */
+    font-family: "roboto",sans-serif;
+    font-size: 23px;
+    list-style: none;
+}
+.spl{
+    display: flex;
+}
+.box{
+    margin-top: 8px;
+    font-family: "Roboto Condensed",sans-serif;
+    font-size: 20px;
+}
+.t{
+    font-size: 24px !important;
+    text-align: center;
+    font-weight: bold;
+}
+.banner{
+    margin-top: 16px;
+    border-color: 2px rgb(255, 78, 78);
+    display: flex;
+    background-color: #ffbc90;
+    border-radius: 16px;
+    max-width: 1320px;
+    height: 125px;
+    margin-bottom: 16px;
+}
+
+
+
+
+.foot{
+    background-color:  rgba(240, 132, 132, 0.567);
+    height:85px ;
+}
+.foote{
+    color: white;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+}
+.foote img{
+    margin-top: 12px;
+    max-height: 45px;
+    margin-right: 8px;
+}
+.f2{
+    margin-top: 23px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.f2 i{
+    margin-right: 2px;
+}
+.bb{
+    display: flex;
+    row-gap: 25px;
+    width: 100%;
+    justify-content: end;
+    align-items: center;
+    transition: all 0.2s ease;
+}
+.b1{
+    color: white;
+    background-color:  rgba(255, 104, 212, 0.737);
+    justify-content: center;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+.b1 i{
+    fill: white;
+}
+.b2{
+    color: white;
+    background-color: rgba(60, 255, 70, 0.964);
+    border-radius: 6px;
+    margin-right: 30px;
+    margin-left: 1px;
+    transition: all 0.2s ease;
+}
+.b2 i{
+    fill: white;
+}
+.b1:hover{
+    fill: white;
+    color: white;
+    background-color: rgba(255, 104, 212, 0.737);
+    transform: scale(1.1);
+}
+.b2:hover{
+    color: white;
+    fill: white;
+    background-color: rgba(60, 255, 70, 0.964);
+    transform: scale(1.1);
+}
+.im img{
+    align-items: baseline;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-left:  350px;
+    max-width: 700px;
+    max-height: 200px;
+}
+.textt{
+    height: 70px;
+}
+.textt img{
+    padding-left:  70px;
+    height: 140px;
+}
